@@ -19,7 +19,7 @@ jobs:
     - name: Checkout repository
       # This action checks out your repository under $GITHUB_WORKSPACE,
       # so your workflow can access it.
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up JDK 17
       # This action sets up a Java environment for your build.
