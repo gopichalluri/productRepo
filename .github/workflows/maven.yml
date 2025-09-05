@@ -36,7 +36,7 @@ jobs:
     - name: Upload JAR as artifact
       # This step uploads the generated JAR file as a build artifact,
       # which can be downloaded and used for deployment later.
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: product-boot-app
         path: target/*.jar
